@@ -35,6 +35,9 @@ gem 'jbuilder', '~> 2.5'
 #Use Anotate to generate anotation
 gem 'annotate', '~> 2.7', '>= 2.7.1'
 
+#Use Rubocop to static analyse code
+gem 'rubocop', '~> 0.46.0', require: false
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
